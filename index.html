@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>test</title>
+<style>
+ *{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+ }
+  .headerweb{
+    background-color:#2c3e50;
+    color: white;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .logo{
+    width:55px;
+    height:55px;
+    background-color:white;
+    border-radius:100%;
+  }
+  .logo img{
+    width:3rem;
+    width:55px;
+    height:55px;
+    border-radius:100%;
+  }
+  .menu ul{
+    list-style:none;
+    background-color:cadetblue;
+    border-radius:5px;
+    padding:5px 10px 5px 10px;
+    display:flex;
+    gap:20px;
+  }
+  .menu a{
+    text-decoration:none;
+    color: white;
+    font-weight:bold;
+    transition:all 0.5s;
+  }
+  .menu a:hover{
+    color:#0073ff;
+  }
+  .mainweb{
+    padding:20px;
+    text-align:center;
+    background-color:#d3fddf;
+    height:400vw;
+  }
+  .boxweb{
+    text-align:center;
+    padding:20px;
+    display:flex;
+  }
+  .box{
+    width:40vw;
+    height:40vw;
+    background-color:white;
+    border:2px solid black;
+    border-radius:10px;
+    
+  }
+  .box img{
+    width:70%;
+    height:40%;
+    border-radius:7px;
+    margin-top:30px;
+  }
+  .box span{
+    color: red;
+  }
+  .buttonweb{
+  margin-top:25px;
+  height:50px;
+  width:70px;
+  }
+  button{
+    background-color:#3ae35e;
+    border:none;
+    border-radius:7px;
+    transition:all 0.5s;
+  }
+  button:hover{
+    background-color:#3ae3;
+  }
+  .footerweb{
+    background-color:#2c3e50;
+    padding:20px;
+    color:white;
+    direction:rtl;
+  }
+</style>
+</head>
+ <body>
+   
+  <section class="app-container">
+    <header class="headerweb">
+      <div class="logo">
+        <img src="Scott-Adkins2.jpg">
+      </div>
+      <nav class="menu">
+        <ul>
+          
+          <li><a href="#">خانه</a></li>
+          <li><a href="#">محصولات</a></li>
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="#">تماس با ما</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="mainweb">
+      <h1>محصولات ما</h1>
+      <div class="boxweb">
+        
+        <div class="box">
+          <img src="Scott-Adkins2.jpg">
+          <h2>تابلو شماره ۱</h2>
+          <br>
+          <h2><span>قیمت: 100,000 تومان</span></h2>
+          <button class="buttonweb">
+            خرید
+          </button>
+        </div>
+        
+        <div class="box">
+          <img src="Scott-Adkins2.jpg">
+          <h2>تابلو شماره ۱</h2>
+          <br>
+          <h2><span>قیمت: 100,000 تومان</span></h2>
+          <button class="buttonweb">
+            خرید
+          </button>
+        </div>
+        
+        <div class="box">
+          <img src="Scott-Adkins2.jpg">
+          <h2>تابلو شماره ۱</h2>
+          <br>
+          <h2><span>قیمت: 100,000 تومان</span></h2>
+          <button class="buttonweb">
+            خرید
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="footerweb">
+      <p>.تمامی حقوق محفوظ است</p>
+    </footer>
+  </section>
+  
+</body>
+
+</html>
